@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url('livingroom\ bg.jpg');
+    background-size: 100%;
+
+}
+
+header{
+    background-color: #333;
+        color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+main{
+    max-width: 800px;
+    margin:0 auto;
+    padding: 20px;
+
+}
+
+.room{
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: rgba(0, 0, 0, 0.452);
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.device{
+    margin: 10px 0;
+
+
+}
+
+
+
+h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+    
+    
+}
+
+h3{
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: white;
+    
+}
+
+.fieldset{
+    background-color: rgba(0, 0, 0, 0.452);
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+
+.picture{
+    width: 5%;
+    margin-left: 360px;
+    padding-top: 15px;
+}
+.Thermostat{
+    height: 100px;
+    border-radius: 20px;
+    border: 2px solid white;
+    
+}
+
+button, input{
+    padding: 10px;
+    font-size: 16px;
+}
+
+button.on{
+    background-color: rgb(183, 240, 99);
+    color: #fff;
+    margin-left: 330px;
+    margin-bottom: 10px;
+}
+button.off{
+    background-color: rgb(212, 79, 79);
+    color: #fff;
+}
+.slider{
+    width: 50%;
+    margin-left: 200px ;
+    accent-color: rgba(163, 65, 65, 0.075);
+    
+}
+
+@media  (max-width: 768px){
+    main{
+        padding: 10px;
+    }
+    button.on{
+        background-color: rgb(183, 240, 99);
+        color: #fff;
+        margin-left: 330px;
+        margin-bottom: 10px;
+    }
+}
